@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ArchitecturePatterns</string>
+    <string name="title_mvc_architecture">MVC Architecture</string>
+    <string name="title_mvp_architecture">MVP Architecture</string>
+    <string name="title_mvvm_architecture">MVVM Architecture</string>
+    <string name="title_clean_mvvm_architecture">Clean MVVM Architecture</string>
+    <string name="title_saved_notes">Saved Notes</string>
+    <string name="title_new_note">New Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_random_number">Get Next Lucky Number</string>
+    <string name="hint_email">Please enter your email</string>
+    <string name="hint_password">Please enter your password</string>
+    <string name="hint_title">Please enter title</string>
+    <string name="hint_description">Please enter description</string>
+    <string name="hint_empty_notes">Please add a new note</string>
+    <string name="success_login">Login successful</string>
+    <string name="failure_login">Email or Password is not valid</string>
+    <string name="zero">0</string>
+    <string name="action_login">Login</string>x
+    <string name="action_save_note">Save Note</string>x
+</resources>
