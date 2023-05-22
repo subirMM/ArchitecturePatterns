@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".cleanmvvm.HiltApplication"
         android:allowBackup="true"
@@ -29,7 +30,12 @@
             android:theme="@style/Theme.ArchitecturePatterns.NoActionBar" />
 
         <activity
-            android:name=".cleanmvvm.view.ui.MainActivity"
+            android:name=".cleanmvvm.view.ui.NotesActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ArchitecturePatterns.NoActionBar" />
+
+        <activity
+            android:name=".cleanmvvm.view.ui.RecipeActivity"
             android:exported="true"
             android:theme="@style/Theme.ArchitecturePatterns.NoActionBar" />
     </application>

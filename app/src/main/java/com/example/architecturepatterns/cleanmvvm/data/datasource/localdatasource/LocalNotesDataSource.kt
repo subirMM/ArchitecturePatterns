@@ -1,10 +1,10 @@
-package com.example.architecturepatterns.cleanmvvm.domain.datasource.local
+package com.example.architecturepatterns.cleanmvvm.data.datasource.localdatasource
 
 import com.example.architecturepatterns.cleanmvvm.data.Failure
 import com.example.architecturepatterns.cleanmvvm.data.Result
 import com.example.architecturepatterns.cleanmvvm.data.Success
 import com.example.architecturepatterns.cleanmvvm.data.db.helper.DbHelper
-import com.example.architecturepatterns.cleanmvvm.data.model.NoteModel
+import com.example.architecturepatterns.cleanmvvm.domain.model.NoteModel
 import com.example.architecturepatterns.cleanmvvm.domain.blueprint.NotesDataSourceBlueprint
 import javax.inject.Inject
 import kotlinx.coroutines.Dispatchers

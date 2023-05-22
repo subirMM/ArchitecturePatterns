@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.architecturepatterns.cleanmvvm.data.Failure
 import com.example.architecturepatterns.cleanmvvm.data.Success
-import com.example.architecturepatterns.cleanmvvm.data.model.NoteModel
+import com.example.architecturepatterns.cleanmvvm.domain.model.NoteModel
 import com.example.architecturepatterns.cleanmvvm.domain.usecase.FetchNotesUseCase
 import com.example.architecturepatterns.cleanmvvm.domain.usecase.SaveNoteUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -14,7 +14,7 @@ import javax.inject.Inject
 import kotlinx.coroutines.launch
 
 @HiltViewModel
-class MainViewModel @Inject constructor(
+class NotesViewModel @Inject constructor(
     private val fetchNotesUseCase: FetchNotesUseCase,
     private val saveNoteUseCase: SaveNoteUseCase
 ) : ViewModel() {

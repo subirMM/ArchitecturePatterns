@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.architecturepatterns.cleanmvvm.data.model.NoteModel
+import com.example.architecturepatterns.cleanmvvm.domain.model.NoteModel
 import com.example.architecturepatterns.databinding.ItemNotesBinding
 
 class NotesAdapter : RecyclerView.Adapter<NotesAdapter.NotesViewHolder>() {

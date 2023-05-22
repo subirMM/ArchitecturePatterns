@@ -1,7 +1,7 @@
 package com.example.architecturepatterns.cleanmvvm.domain.usecase
 
 import com.example.architecturepatterns.cleanmvvm.data.Result
-import com.example.architecturepatterns.cleanmvvm.data.model.NoteModel
+import com.example.architecturepatterns.cleanmvvm.domain.model.NoteModel
 import com.example.architecturepatterns.cleanmvvm.domain.repository.NotesRepository
 import javax.inject.Inject
 

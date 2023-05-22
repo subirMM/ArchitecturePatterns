@@ -1,7 +1,7 @@
 package com.example.architecturepatterns.cleanmvvm.domain.repository
 
 import com.example.architecturepatterns.cleanmvvm.data.Result
-import com.example.architecturepatterns.cleanmvvm.data.model.NoteModel
+import com.example.architecturepatterns.cleanmvvm.domain.model.NoteModel
 import com.example.architecturepatterns.cleanmvvm.domain.blueprint.NotesDataSourceBlueprint
 import javax.inject.Inject
 
